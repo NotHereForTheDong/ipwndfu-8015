@@ -13,6 +13,14 @@
 ## Please use at your own risk!
 
 ## Usage
+***setting A11-nonce***<br>
+```
+$ ./ipwndfu -p
+$ python ./A-11Nonce.py
+This will set nonce in DFU, will show up after sending a patched image.
+$ ./ipwndfu --patch
+This allows to load unsigned images, or restore with desired nonce
+```
 ***loading unsigned images***<br>
 ```
 $ ./ipwndfu -p
