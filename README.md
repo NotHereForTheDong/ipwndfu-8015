@@ -15,6 +15,8 @@
 ## Usage
 ***setting A11-nonce***<br>
 ```
+**The Generator is defined in A11-Nonce.py, default is 0x1111111111111111**
+**You may have to change this based on your blob**
 $ ./ipwndfu -p
 $ python ./A11-Nonce.py
 This will set nonce in DFU, will show up after sending a patched image.
